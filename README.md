@@ -1,0 +1,2 @@
+# langchain-multitool-app
+ A versatile Streamlit app integrating LangChain-powered tools for web search, conversational retrieval-augmented generation (RAG) with PDF support, and content summarization from YouTube videos or web pages. This app leverages Groq API for seamless, context-aware responses, offering a user-friendly interface to explore information through search, PDF knowledge extraction, and URL summarization. Perfect for researchers, students, and anyone seeking a unified, intelligent information assistant!
