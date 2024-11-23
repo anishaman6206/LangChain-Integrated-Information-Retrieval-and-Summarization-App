@@ -194,7 +194,9 @@ if api_key:
                     config={"configurable": {"session_id": session_id}}
                 )
                 st.write("Assistant:", response['answer'])
-                st.write("Chat History:", session_history.messages)
+                st.write("Last Question:", user_input)
+                st.write("Last Response:", response['answer'])
+                #st.write("Chat History:", session_history.messages)
                 save_response(response['answer'])
 
     # Mode 3: Summarize URL
