@@ -28,8 +28,15 @@ load_dotenv()
 st.title("Unified LangChain Application: Web Search, Conversational RAG, and URL Summarization")
 
 # Display an information section about the Groq API key
-st.markdown("### Groq API Key Information")
-st.info(
+
+# Initialize the session state to control the visibility of the info box
+if 'api_key_entered' not in st.session_state:
+    st.session_state.api_key_entered = False
+
+# Display the Groq API key info only if the key hasn't been entered
+if not st.session_state.api_key_entered:
+    st.markdown("### Groq API Key Information")
+    st.info(
     "To use this app features, you need a **Groq API key**.\n"
     "If you don't have a Groq API key, you can follow these steps to get one:\n"
     "1. Go to the [Groq website](https://www.groq.com).\n"
@@ -38,6 +45,8 @@ st.info(
     "4. Generate a new API key and copy it.\n\n"
     "Once you have your API key, enter it to start using the app."
 )
+    
+ 
 
 # Sidebar settings
 st.sidebar.title("Settings")
@@ -70,6 +79,11 @@ def save_response(response):
 
 # Initialize LLM based on API key
 if api_key:
+
+    st.session_state.api_key_entered = True
+    st.success("API key entered. You can now use the app features.")
+    # Save the API key or use it in your application logic here
+    
     # Define LLM model and detail settings
     model_name = "Llama3-8b-8192" if app_mode in ["Web Search", "Summarize URL"] else "Gemma2-9b-It"
     max_tokens = 300 if response_detail == "Concise" else 1000
