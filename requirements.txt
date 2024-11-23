@@ -28,3 +28,4 @@ duckduckgo-search
 validators
 unstructured
 youtube-transcript-api
+pytube
