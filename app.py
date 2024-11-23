@@ -23,8 +23,21 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
+
 # Streamlit setup
 st.title("Unified LangChain Application: Web Search, Conversational RAG, and URL Summarization")
+
+# Display an information section about the Groq API key
+st.markdown("### Groq API Key Information")
+st.info(
+    "To use this app features, you need a **Groq API key**.\n"
+    "If you don't have a Groq API key, you can follow these steps to get one:\n"
+    "1. Go to the [Groq website](https://www.groq.com).\n"
+    "2. Sign up or log in to your Groq account.\n"
+    "3. Navigate to the **API section** in your account settings.\n"
+    "4. Generate a new API key and copy it.\n\n"
+    "Once you have your API key, enter it to start using the app."
+)
 
 # Sidebar settings
 st.sidebar.title("Settings")
