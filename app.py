@@ -40,8 +40,9 @@ if "saved_responses" not in st.session_state:
     st.session_state["saved_responses"] = []
 
 # Shared Embeddings for PDF RAG
-embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 HF_TOKEN="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"
+embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+
 
 # Define common functions
 def display_chat_history():
