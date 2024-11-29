@@ -57,7 +57,7 @@ Contributions are welcome! Please feel free to open issues, submit feature reque
 
 ## App Link
 
-Explore the live application here: [ML Model Visualizer](https://anishaman6206-langchain-multitool-app-app-d8mfu1.streamlit.app/)
+Explore the live application here: [Multifunctional AI-Powered Information Retrieval and Summarization App](https://anishaman6206-langchain-multitool-app-app-d8mfu1.streamlit.app/)
 
 ## License
 
