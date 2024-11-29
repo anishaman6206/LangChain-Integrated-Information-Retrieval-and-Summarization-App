@@ -29,7 +29,6 @@ A versatile Streamlit application that integrates LangChain-powered tools for in
    ```
 
 4. **Set up API keys**:
-   - Rename `.env.example` to `.env`.
    - Add your **Groq API Key** and **HuggingFace Token** (for embeddings) to the `.env` file.
 
 ## Usage
@@ -55,6 +54,10 @@ A versatile Streamlit application that integrates LangChain-powered tools for in
 ## Contributions
 
 Contributions are welcome! Please feel free to open issues, submit feature requests, or create pull requests.
+
+## App Link
+
+Explore the live application here: [ML Model Visualizer](https://anishaman6206-langchain-multitool-app-app-d8mfu1.streamlit.app/)
 
 ## License
 
