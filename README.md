@@ -51,19 +51,6 @@ A versatile Streamlit application that integrates LangChain-powered tools for in
 - **.env.example**: Template for environment variables file, which includes placeholders for API keys.
 - **helpers/**: Directory for helper functions (e.g., for loading PDF files or managing session history).
 
-## Example Screenshots
-
-### Web Search and PDF RAG
-![Web Search and PDF RAG](./screenshots/web_search_rag.png)
-
-### URL Summarization
-![URL Summarization](./screenshots/url_summarization.png)
-
-## Future Enhancements
-
-- Support for additional document formats (e.g., Word files).
-- Advanced summarization controls, including length and format preferences.
-- Real-time language translation for multilingual support.
 
 ## Contributions
 
