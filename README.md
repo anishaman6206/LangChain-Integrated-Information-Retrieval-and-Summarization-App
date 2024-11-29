@@ -60,6 +60,3 @@ Contributions are welcome! Please feel free to open issues, submit feature reque
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
----
-
-Replace `"https://github.com/your-username/langchain-multitool-app.git"` with your actual repository URL, and adjust paths or file names if needed. This README provides a clean overview of your project’s capabilities and setup instructions. Let me know if you'd like to include additional information!
