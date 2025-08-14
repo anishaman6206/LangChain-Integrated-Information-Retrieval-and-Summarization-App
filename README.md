@@ -4,7 +4,7 @@ A versatile Streamlit application that integrates LangChain-powered tools for in
 
 ## Features
 
-- **Intelligent Web Search**: Uses DuckDuckGo for web searches, providing real-time responses.
+- **Intelligent Web Search**: Uses dynamic tool like DuckDuckGo, Arxiv and Wikipedia for web searches, providing real-time responses.
 - **RAG from PDFs**: Retrieves and answers questions using content from uploaded PDF files through FAISS-based vector search.
 - **Content Summarization**: Summarizes text from YouTube videos and web pages, delivering concise or detailed summaries as chosen by the user.
 - **Configurable Responses**: Users can select response detail levels, save chat histories, and adjust session preferences.
